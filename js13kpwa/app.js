@@ -1,4 +1,12 @@
 // Generating content based on the template
+
+
+// const router = new Navigo('/');
+// router.on('/redirect', function () {
+//  console.log("redirect")
+// });
+//orig
+
 const template = `<article>
   <img src='data/img/placeholder.png' data-src='data/img/SLUG.jpg' alt='NAME'>
   <h3>#POS. NAME</h3>
