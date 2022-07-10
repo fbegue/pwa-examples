@@ -1,9 +1,11 @@
 // Generating content based on the template
 
+const router = new Navigo("/");
 
-// const router = new Navigo('/');
-// router.on('/redirect', function () {
-//  console.log("redirect")
+router.on("/redirect", function (match) {
+  document.getElementById("app").innerHTML = "<div>here</div>";
+});
+
 // });
 //orig
 
